@@ -1,8 +1,8 @@
 // contentConfig.ts
 
 export const metaData = {
-    title: "Aaqib Mehrban",
-    description: "Developer Portfolio of Aaqib Mehrban",
+    title: "Kumail Raza",
+    description: "Developer Portfolio of Kumail Raza",
     image: "/images/logos/web-icon.png",
 }
 
@@ -10,15 +10,15 @@ export const metaData = {
 export const profileImage = "/images/logos/profile.png"; 
 
 export const headerData = {
-  name: "Aaqib Mehrban",
-  title: "FullStack Developer | GIS Engineer",
-  location: "Espoo, Finland",
+  name: "Kumail Raza",
+  title: "Software Developer | GIS Engineer",
+  location: "Tartu, Estonia",
   locationIcon: "FaMapMarkerAlt",
-  description: "I build pixel-perfect, engaging, and accessible digital GIS experiences.",
+  description: "Building geospatial solutions that transform data into actionable insights for real-world impact.",
   buttons: [
     {
       text: "Book a Meeting",
-      href: "https://calendly.com/rajaaaqib775/",
+      href: "https://calendly.com/mohnark/",
       className: "inline-block shadow-[0_4px_14px_0_rgb(0,118,255,39%)] hover:shadow-[0_6px_20px_rgba(0,118,255,23%)] hover:bg-[rgba(0,118,255,0.9)] px-8 py-2 bg-[#0070f3] rounded-md text-white font-light transition duration-200 ease-linear",
       isDownloadButton: false,
     },
@@ -29,8 +29,8 @@ export const headerData = {
       isDownloadButton: true,
     },
     {
-      text: "Request a Service",
-      href: "https://wa.me/+358417216858",
+      text: "Whatsapp",
+      href: "https://wa.me/+37256018191",
       className: "shadow-[0_4px_14px_0_rgb(0,118,255,39%)] hover:shadow-[0_6px_20px_rgba(0,118,255,23%)] hover:bg-[rgba(0,118,255,0.9)] px-8 py-2 bg-[#0070f3] rounded-md text-white font-light transition duration-200 ease-linear inline-block",
       isDownloadButton: false,
     },
@@ -38,11 +38,9 @@ export const headerData = {
 };
 
 export const skills = [
-  "Python", "Javascript", "TypeScript", "HTML5", "CSS3", "MUI", "Shadcn",
-  "Tailwind", "React.js", "Next.js", "JQuery", "Node.js", "Express.js", "Django",
-  "Flask", "MySQL", "Mongodb", "PostgreSQL", "Docker", "Git", "Github", "Jest",
-  "Selenium", "Puppeteer", "Appium", "RESTful API", "Postman", "API Testing",
-  "SQA", "Graphql", "Cloud Services", "Redis", "Vite", "Linux", "Slack", "Trello", "Figma"
+  "GoLang", "Python", "Javascript", "TypeScript", "React.js", "Node.js", "Django",
+  "Flask", "PostGIS", "PostgreSQL", "Docker", "Git", "Remote Sensing", 
+  "Selenium", "Redis", "Vite", "Linux", "Slack","GDAL", "ArcGIS Pro", "QGIS", "TileDB", "Geoserver"
 ];
 
 export const education = [
@@ -59,89 +57,86 @@ export const education = [
 ];
 
 export const aboutText = [
-    "From an early age, I was a tech enthusiast, starting my first blog in 2012. My passion for technology led me to pursue a Bachelor's in Geoinformatics Engineering at NUST due to my interest in Spatial Technology and Computer Science.",
-    "During my academic journey, I freelanced, collaborating with over 100 clients globally and completing over 300 projects on Upwork and Fiverr. This experience honed my skills in Python, data visualization, creating dashboards, websites, and structuring databases in PostgreSQL.",
-    "Today, as a Full Stack Developer, I lead a team in designing scalable and efficient products across various domains. My diverse technical skill set ensures both front-end and back-end components of projects are optimized, scalable, and seamlessly integrated."
+    `I’m Kumail, a GIS software engineer with a knack for transforming geospatial data into meaningful, real-world solutions. My journey began with spatial data analysis, but it wasn’t long before I found my passion in building full-stack applications that power impactful decisions. I’ve spent years honing my skills in technologies like GoLang, Python, React, and PostGIS, and I love crafting solutions that blend backend efficiency with sleek user interfaces.`,
+    `Most recently, I’ve been engineering backend systems at Farmdar, where I integrated GIS technologies to enhance spatial data analysis and developed microservices that scale efficiently. Whether I’m deploying applications on AWS or leading the architecture of key projects, I thrive on solving complex problems and making data actionable.`, 
+    `When I’m not coding, you’ll find me hiking or exploring cities. Let's connect and build something extraordinary!`
   ];
   
-export const experience = [
+  export const experience = [
     {
-    date: "July 2024 - Present",
-    position: "Software Engineer at Make A BIM",
-    responsibilities: [
-      "Design,implement software applications, and analyse user requirements",
-      "Improve overall infrastructure of Company's base product.",
-      "Create Pipelines for effective flow of data between multiple modules of company's product."
-    ],
-    skills: ["Python", "JavaScript", "Image Processing","Machine Learning"]
-  },
-  {
-    date: "Jan 2023 - Jul 2023",
-    position: "Full Stack Developer at Fornax Technologies",
-    responsibilities: [
-      "Led a team of 4 Developers, ensuring effective task management and client collaboration for timely, high-quality outputs.",
-      "Designed scalable, efficient products leveraging advanced technologies, resulting in a 20% improvement in performance and a 26.6% reduction in maintenance costs.",
-      "Established structured code review processes and guidelines for the company."
-    ],
-    skills: ["JavaScript", "TypeScript", "React"]
-  },
-  {
-    date: "Jun 2022 - Dec 2022",
-    position: "Python Developer at Marktpilot",
-    responsibilities: [
-      "Created 100+ web scrapers for real-time data collection, enriching product features with current information from diverse sources.",
-      "Optimized an ETL data pipeline in Python, accelerating data analysis with improved accuracy and speed.",
-      "Authored detailed documentation for web scrapers and data tools, enhancing usability and maintenance."
-    ],
-    skills: ["Python", "Web Scraping", "Data Analysis"]
-  },
-  {
-    date: "Jun 2021 - May 2022",
-    position: "Full Stack Developer at Horizon Technologies",
-    responsibilities: [
-      "Worked as a junior dev for a large team, leading full-stack development and integrating modern UI and backend tech, on a project with a user base of around 10,000 users per day.",
-      "Implemented robust data processing and analysis pipelines, enhancing the platform's capabilities in handling and visualizing spatial data.",
-      "Learned to work as a team and contributed to 3 big GIS projects of a company."
-    ],
-    skills: ["JavaScript", "Node.js", "GIS"]
-  }
-];
+      date: "Sep 2022 - Sep 2024",
+      position: "Software Engineer at Farmdar",
+      responsibilities: [
+        "Developed and maintained backend systems with a focus on scalability and security.",
+        "Integrated GIS technologies to enhance mapping and spatial data analysis in applications.",
+        "Designed and implemented microservices to improve modularity and performance.",
+        "Deployed and managed web applications on AWS, focusing on reliability and scaling."
+      ],
+      skills: ["GORM", "GeoDjango", "AWS", "PostgreSQL", "GIS", "Remote Sensing"]
+    },
+    {
+      date: "Mar 2022 - Apr 2022",
+      position: "Software Engineer at PropSure Pvt Ltd",
+      responsibilities: [
+        "Collaborated with project managers to design web application UIs.",
+        "Developed a RESTful API for road network data using Express.js and PostgreSQL.",
+        "Wrote complex SQL queries to calculate routes based on GIS road data."
+      ],
+      skills: ["Express.js", "PostgreSQL", "RESTful APIs", "GIS"]
+    },
+    {
+      date: "Jan 2020",
+      position: "Freelance Software Engineer",
+      responsibilities: [
+        "Developed custom Web GIS applications and dashboards for telecommunications and real estate sectors.",
+        "Automated data collection with web scraping and data mining scripts.",
+        "Completed 100+ projects on Fiverr, achieving Level 2 Seller status."
+      ],
+      skills: ["React.js", "Django", "Web Scraping", "GIS"]
+    },
+    {
+      date: "Jul 2021 - Sep 2021",
+      position: "GIS Engineer Intern at DHA Lahore",
+      responsibilities: [
+        "Acquired and cleaned land parcel data for geospatial projects.",
+        "Developed a web application to manage a large database of customers.",
+        "Created 3D data visualizations and modeling for urban planning."
+      ],
+      skills: ["QGIS", "3D Visualization", "GIS"]
+    }
+  ];
+  
 
 export const projects = [
-    {
-      title: "Web Developer Portfolio",
-      description: "An Elegant Web Developer Portfolio build using modern tech like Next, React, Tailwind CSS, Aceternity Components and Deployed with help of Vercel. ",
-      url: "https://github.com/aaqibmehrban/developer-folio",
+  {
+    title: "eSurvey Mobile Application and Web Portal",
+    description: "Built for Farmdar: Customisable, pre-loaded crop development activity calendar, with task assignment, scheduling and audit for field managers",
+    url: "https://www.farmdar.ai/products",
+    stars: null,
+    skills: ["GDAL", "GeoDjango", "GoLang", "React", "React Native", "PostGIS"],
+    image: "https://cdn.prod.website-files.com/660564e054aa737d07590d3a/6651ac340f292e28497459fc_Farmdar%20iPhone%20Mockup%20Front%20floating%203%20new-p-1600.png",
+  },
+  {
+      title: "Drone Path Mapping - Shapely",
+      description: "Calculating and Mapping drone paths using shapely and Greedy Salesman",
+      url: "https://github.com/mohnark/drone-path-mapping-shapely",
       stars: null,
-      skills: ["React", "Next","Tailwind CSS" ,"Aceternity UI", "Vercel"],
-      image: "/images/github-project/dev-folio.png",
+      skills: ["GDAL", "Python", "Shapely"],
+      image: "https://raw.githubusercontent.com/mohnark/drone-path-mapping-shapely/refs/heads/main/output_sc.JPG",
     },
-    {
-      title: "Reddit to Youtube Video Bot",
-      description: "A Desktop app that can automate the process of finding posts related to keyword on reddit and then create video and text-to-speech from it and upload on youtube.",
-      url: "https://github.com/aaqibmehrban/Automatic-Reddit-text-to-Video-Generator-and-youtube-uploader",
-      stars: "61",
-      skills: ["Python", "Selenium", "Praw API", "Google Translator"],
-      image: "/images/github-project/reddit-bot.webp",
-    },
+
     // Add more projects here
   ];
 
-  export const repoLink = "https://github.com/aaqibmehrban?tab=repositories";
+  export const repoLink = "https://github.com/mohnark?tab=repositories";
 
 export const posts = [
     {
-      year: "July 11, 2023",
-      title: "How Appium is being used by Marketing Agencies to boost traffic",
-      url: "https://www.linkedin.com/pulse/how-appium-being-used-marketing-agencies-boost-traffic-aaqib-mehrban/",
-      thumbnail: "/images/posts/1.jpg"
+      year: "Mar 6, 2023",
+      title: "How to Draw Polygons on Mobile using React Native Maps",
+      url: "https://medium.com/@kumail09/drawing-polygons-using-react-native-maps-e9ce23a34d72",
+      thumbnail: "https://miro.medium.com/v2/resize:fit:640/format:webp/1*alQlr1wKkhck9AvhT-Swcw.png"
     },
-    {
-      year: "2019",
-      title: "Secure Your Python Code: Create a Trial Program to Protect Your Freelance Work",
-      url: "https://www.youtube.com/watch?v=cH_znxq2c-M",
-      thumbnail: "/images/posts/2.webp"
-    }
   ];
   
 

@@ -73,9 +73,12 @@ export function TabsData() {
               </div>
             ))}
             <div className="mt-8">
-              <a href={repoLink} className="text-[#2eb0cb] hover:text-white transition duration-300">
-                View Github Repo List →
-              </a>
+            <a href={repoLink} 
+              className="text-[#2eb0cb] hover:text-white transition duration-300" 
+              target="_blank" 
+              rel="noopener noreferrer">
+              View Github Repo List →
+            </a>
             </div>
           </div>
         </div>
