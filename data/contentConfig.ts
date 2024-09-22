@@ -45,9 +45,9 @@ export const skills = [
 
 export const education = [
   {
-    degree: "Masters in Geoinformatics Engineering",
-    school: "Aalto University",
-    location: "Finland",
+    degree: "Geo-information Science and Earth Observation for Environmental Modelling and Management",
+    school: "University of Tartu, UCLouvain, ITC",
+    location: "Estonia, Belgium, Netherlands",
   },
   {
     degree: "Bachelors in Geoinformatics Engineering",
